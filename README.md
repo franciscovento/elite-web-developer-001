@@ -49,7 +49,7 @@ Link: [https://github.com/dileofrancoj/elite-web-developer-books]
 - Clase 17: Métricas frontend, issues, dashboards + GTM para sesiones y tracking
 
 ### 7. Arquitectura
-- Clase 18: Design System (teoría de escalado, balancer, gateway, db y problemas de entrevista)
+- Clase 18: Design System (teoría de escalado, balancer, gateway, db y problemas de entrevista) + microservicios
 - Clase 19: Amazon S3: Configuración de bucket para deployear proyecto en react, Vercel, CI/CD
 
 ### 8. NextJS
@@ -62,3 +62,23 @@ Link: [https://github.com/dileofrancoj/elite-web-developer-books]
 - Monorepo con Turbo
 - Microfrontends
 - Integración con firebase
+------------------------------------------------
+
+## Especificaciones del proyecto
+
+- No podes acceder a ningúna ruta a menos que estés logueado
+- Se debe guardar el JWT en el storage y se debe validar en cada request al server mediante un interceptor
+    - Los datos de autenticación deben estar en un contexto
+- La página principal debe tener carouseles de productos por categorias disponibles en el storybook
+- La página individual del producto debe ser una ruta lazy
+- Se debe contar con un test coverage de al menos 80%
+- Se debe tener observabilidad de la aplicación en todo momento y debe buscarse que el P90 del FCP no sea mayor a 1.5s
+- La navbar debe estar comunicada en tiempo real con el store de producto
+- El carrito debe estar comunicado entre todas las pestañas
+- Todas las funcionalidades comúnes deben estar en una librería de utilidades
+- Todos los componentes comúnes deben estar en una libreria de componentes visuales
+- Todos los custom hooks deben estar en una librería de hooks
+- Checkout
+- Opcional:
+    - Diagrama del funnel de compra
+    - Integración con firebase para productos y manejo de stock
