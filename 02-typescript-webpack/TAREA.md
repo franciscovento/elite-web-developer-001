@@ -1,6 +1,6 @@
 ## Tareas
 
-### Consumo de API's
+### Consumo de API's
 
 - Realizar un proyecto con webpack y typescript (SIN FRAMEWORK) para mostrar en pantalla los recursos de una API
 
