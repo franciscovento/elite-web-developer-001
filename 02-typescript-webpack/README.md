@@ -127,3 +127,33 @@ function validateNumericRange<T extends number>(
   return valor >= min && valor <= max;
 }
 ```
+
+### Petición con axios
+
+```typescript
+export const getResource = async <T>(url: string): Promise<T[]> => {
+  const response = await axios.get<T[]>(url);
+  return response.data;
+};
+
+interface InfoProps {
+  count: number;
+  pages: number;
+  next: string;
+  prev: string | null;
+}
+
+interface ResultProps {
+  id: string;
+  name: string;
+  status: string;
+  // .... more props
+}
+
+interface SomeAPIInterface {
+  info: InfoProps;
+  results: ResultProps[];
+}
+
+getResource<SomeAPIInterface>("https://rickandmortyapi.com/api/character");
+```
