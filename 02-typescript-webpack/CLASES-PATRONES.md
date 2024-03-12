@@ -60,3 +60,9 @@ https://refactoring.guru/es/design-patterns/strategy
 
 - Patron Observer
 https://refactoring.guru/es/design-patterns/observer
+
+- Adapter
+https://refactoring.guru/es/design-patterns/adapter
+
+- Proxy
+https://refactoring.guru/es/design-patterns/proxy
