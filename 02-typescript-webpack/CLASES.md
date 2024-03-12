@@ -41,8 +41,22 @@ Son soluciones habituales a problemas que ocurren en el diseño de software. Son
 
 Un patrón de diseño es un **concepto** general para resolver un problema particular. No es algo que podamos copiar y pegar ya que dependerá de nuestro código.
 
-### Tipos de patrones de diseño
+### Tipos de patrones de diseño
 
 - Patrones creacionales: Habla de como crear considerando la flexibilidad y la escalabilidad
 - Patrones estructurales: Como abstraer el código en estructuras más grandes y flexibles
 - Patrones de comportamiento: Como se comunicaran los objetos y que responsabilidades tendrán.
+
+### Teoría de Patrones
+
+- Patrón factory:
+https://refactoring.guru/es/design-patterns/factory-method
+
+- Patrón builder:
+https://refactoring.guru/es/design-patterns/builder
+
+- Patrón strategy:
+https://refactoring.guru/es/design-patterns/strategy
+
+- Patron Observer
+https://refactoring.guru/es/design-patterns/observer

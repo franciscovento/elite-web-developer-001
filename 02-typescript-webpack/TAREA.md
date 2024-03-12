@@ -31,3 +31,14 @@ Output: false
 ```
 
 Dar la complejidad algorítmica del problema
+
+<hr />
+
+### Tarea clase 03
+
+Implementar una aplicación React que traiga elementos de una API (personajes, personas o bebidas). La aplicación debe contar con:
+
+- Una función genérica para consumir la API
+- Interfaces propias de la entidad a consumir (personajes, personas o bebidas)
+- Botones de filtrado implementando una función de filtros basada en un patrón strategy para filtrar lo que traiga la API por criterios establecidos (por ejemplo, si se trata de un personaje quiero filtrar por estado, sexo, etc. Si se trata de un producto quiero filtrar por marca, etc)
+- Los botones de filtrado deben ser construidos mediante un factory simple
