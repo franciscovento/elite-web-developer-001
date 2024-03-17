@@ -12,3 +12,33 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+/* Evitamos problemas con las imagenes */
+img,
+picture,
+video,
+iframe,
+figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  /* opcional */
+  -o-object-fit: cover;
+  object-fit: cover;
+  /* opcional */
+  -o-object-position: center center;
+  object-position: center center;
+}
+
+body {
+  padding: 40px 0;
+}
